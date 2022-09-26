@@ -12,7 +12,7 @@ N/A
 
 Visit the website https://nicolasflamel.github.io/My-Portfolio/ to see the working project. If you click on the image preview of my projects it will direct you to the project's page.  
 Preview of site:
-![Project Preview](assets/Images/project_preview.png)
+![Project Preview](assets/images/project_preview.png)
 
 ## Credits
 

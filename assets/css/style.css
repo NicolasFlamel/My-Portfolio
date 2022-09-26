@@ -10,6 +10,7 @@
     color: var(--contrast);
 }
 
+/* general header modifications */
 h1, h2, h3, h4, h5 {
     color: var(--light);
     margin: 5px;
@@ -24,6 +25,7 @@ h2 {
     font-size: x-large;
 }
 
+/* header styling */
 header {
     padding: 10px;
     display: flex;
@@ -47,18 +49,17 @@ header a:hover {
     color:var(--gray);
 }
 
+/* Main styling */
 #about-me, #my-work, #contact {
     margin: 5px;
     padding: 5px;
     background-color: var(--gray);
 }
 
-#about-me h2 {
-    text-align: center;
-}
-
-#my-work {
-    
+#about-me img {
+    float: left;
+    margin: 5px;
+    height: 100px;
 }
 
 #my-work ol {
@@ -72,7 +73,7 @@ header a:hover {
     width:45%;
 }
 
-img {
+#my-work img {
     width: 100%;
 }
 

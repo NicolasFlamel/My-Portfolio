@@ -68,13 +68,31 @@ header a:hover {
     justify-content: center;
 }
 
-#my-work li:not(#work-1 ) {
+#my-work li {
+    /* makes position absolute for text relative to this */
+    position: relative;
+}
+
+#my-work li:not(#work-1) {
     margin: 5px;
     width:45%;
 }
 
 #my-work img {
     width: 100%;
+}
+
+#my-work p {
+    display: inline;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    padding: 5px;
+    font-size: 2vw;
+    border: #222831;
+    border-style: solid;
+    color: var(--contrast);
+    background-color: var(--dark);
 }
 
 #contact ul {
